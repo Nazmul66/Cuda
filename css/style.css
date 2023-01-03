@@ -1,0 +1,600 @@
+/*=======================
+       Google fonts
+ ========================*/
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300;400;600;700;900&display=swap');
+
+/*=======================
+        Global css
+ ========================*/
+body{
+   font-family: 'Titillium Web', sans-serif;
+}
+a{
+  text-decoration: none;
+}
+/*===========================
+    Header & banner section
+ ============================*/
+
+.header-section{
+	position: relative;
+	background: url(../image/banner-img.jpg) no-repeat center top;
+	background-size: cover;
+	background-attachment: fixed;
+	padding: 30px 0 180px 0;
+	z-index: 1;
+}
+.header-section::before{
+  position: absolute;
+  content: "";
+  width: 100%;
+  height:100%;
+  top: 0;
+  background: rgba(135,80,156,0.8);
+  z-index: -1;
+}
+.navbar-nav{
+	margin-top: 11px;
+}
+.navbar-nav .nav-item{
+    margin: 0 4px;	
+}
+.navbar-nav .nav-item .active{
+   background: #643a79;	
+}
+.navbar-nav .nav-item .nav-link{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 16px;
+    padding: 6px 20px;
+    border-radius: 4px;
+    transition: all 0.3s ease-in-out;
+}
+.navbar-nav .nav-item .nav-link:hover{
+	background: #643a79;
+	transition: all 0.3s ease-in-out;
+}
+.header-add{
+    padding-top: 130px;
+}
+.header-add p{
+    text-align: center;
+    color: #fff;
+    font-size: 34px;
+    font-weight: 600;
+    margin: 0;
+     padding: 0 74px;
+    line-height: 40px;
+}
+.header-add .btn-hash{
+    background: #eb7d4b;
+    text-align: center;
+    color: #fff;
+    padding: 4px 0;
+    font-size: 14px;
+    text-transform: uppercase;
+    display: block;
+    width: 180px;
+    margin: 40px auto 0;
+    transition: all 0.3s ease-in-out;
+}
+.header-add .btn-hash:hover{
+ background: #3a6da5;
+ transition: all 0.3s ease-in-out;
+}
+
+/*========================
+   service section start
+ =========================*/
+.service-section{
+   padding: 120px 0;
+   background: #17c2a4;
+}
+.service-section h2{
+	text-align: center;
+    font-size: 36px;
+    color: #fff;
+    letter-spacing: 4px;
+    font-weight: 500;
+}
+.service-section .lay-border{
+    width: 60px;
+    height: 4px;
+    background: #14a58c;
+    margin: 9px auto;	
+}
+.service-section p{
+    text-align: center;
+    color: #fff;
+    font-weight: 300;
+    padding: 0px 300px;
+    line-height: 23px;	
+}
+.service-details{
+	margin-top: 75px;
+}
+.service-details img{
+   display: block;
+   margin: 0 auto;
+}
+.service-details h3{
+    margin: 55px 0px 22px 0;
+    text-align: center;
+    font-size: 24px;
+    color: #fff;
+    text-transform: uppercase;	
+}
+.service-details p{
+    padding: 0 26px;
+    color: #fff;
+}
+
+/*========================
+     Team section start
+ =========================*/
+ .team-section{
+	  padding: 110px 0;
+	  background: #e7f1f8;
+ }
+ .team-section h2{
+     text-align: center;
+    letter-spacing: 2px;
+    font-weight: 600;
+    color: #3c4761;	
+ }
+ .team-section .lay-border2{
+    width: 60px;
+    height: 3px;
+    background: #c8d9e5;
+    margin: 9px auto;	
+ }
+ .team-section p{
+    text-align: center;
+    color: #3c4761;
+    font-weight: 600;	
+ }
+ .team-details{
+  margin-top: 70px;
+ }
+ .team-details img{
+     width: 80%;
+    border-radius: 100px;
+    display: block;
+    margin: 0 auto 33px;	
+ }
+ .team-details h3{
+    font-size: 22px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+    color: #27283d;	
+ }
+  .team-details h4{
+     font-size: 14px;
+    color: #79d0ee;
+    text-align: center;
+    margin-bottom: 20px;	
+ }
+  .team-details p{
+     text-align: center;
+    color: #3c4761;
+    font-weight: 400;
+    margin-bottom: 25px;
+    padding: 0 28px;	
+ }
+  .team-details ul{
+ 	padding: 0;
+ 	text-align: center;
+ }
+  .team-details ul li{
+ 	list-style: none;
+ 	display: inline;
+ 	margin: 0 4px;
+ }
+  .team-details ul li i{
+     background: #bdd1df;
+    color: #fff;
+    width: 38px;
+    height: 38px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 30px;
+    transition: all 0.4s ease-in-out;	
+ }
+  .team-details ul li i:hover{
+  	transform: rotate(360deg);
+  	color: #fff;
+  	background: #eb7d4b;
+  	transition: all 0.4s ease-in-out;
+  }
+
+  /*========================
+      skill section start
+  =========================*/
+ .skill-section{
+    padding: 110px 0;
+ }
+  .skill-section h2{
+ 	 text-align: center;
+    letter-spacing: 2px;
+    font-weight: 600;
+    color: #3c4761;
+ }
+  .skill-section .lay-border3{
+    width: 60px;
+    height: 3px;
+    background: #c8d9e5;
+    margin: 9px auto;	
+ }
+  .skill-section p{
+ 	text-align: center;
+    color: #3c4761;
+    font-weight: 600;
+    padding: 0 270px;
+    margin-bottom: 70px;
+ }
+
+ .animated-section p{
+     padding: 0;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 700;
+    margin: 0;
+    text-transform: uppercase;	
+ }
+ svg.radial-progress {
+    display: block;
+    margin: 0 auto;
+}
+ svg.radial-progress circle{
+ 	stroke-width: 6;
+}
+ svg.radial-progress text{
+   fill: #3c4761; 
+}
+  svg.web-design circle{
+  	stroke: #81d5f0;
+}
+ svg.html-css circle{
+  	stroke: #d74680;
+}
+ svg.graphics-design circle{
+  	stroke: #15c7a8;
+}
+ svg.ui-ux circle{
+  	stroke: #eb7d4b;
+}
+
+/*===========================
+    portfolio section start
+ ============================*/
+.portfolio-section{
+	padding: 110px 0 50px;
+	background: #ffdd99;
+}
+.portfolio-section h2{
+	font-size: 40px;
+   text-align: center;
+    letter-spacing: 2px;
+    font-weight: 600;
+    color: #3c4761;
+}
+.portfolio-section .lay-border4{
+    width: 60px;
+    height: 3px;
+    background: #e5c37f;
+    margin: 9px auto;		
+}
+.portfolio-section p{
+	  text-align: center;
+    color: #3c4761;
+    font-weight: 600;
+    padding: 0 270px;
+    margin-bottom: 40px;
+}
+
+.selection-bar ul{
+   padding:0; 
+   margin-bottom: 85px;
+   text-align: center;	
+}
+.selection-bar ul li{
+	  list-style: none;
+	  display: inline;
+	  margin: 0 2px;
+	  color: #fefcf8;
+	  font-weight: 600;
+	  text-transform: uppercase;
+    background: #ebc985;
+    padding: 7px 20px;
+    transition: all 0.3s ease-in-out;
+}
+.selection-bar ul li:hover{
+	 background: #fff;
+  	color: #000;
+	 transition: all 0.3s ease-in-out;
+   cursor: pointer;
+}
+.portfolio-sub{
+    margin-bottom: 60px;
+}
+.portfolio-sub img{
+	  width: 95%;
+    margin: 0 auto;
+    display: block;
+}
+.portfolio-sub p{
+    padding: 0;
+    margin-top: 28px;
+    margin-bottom: 0;
+    text-align: center;
+    color: #3c4761;
+    font-weight: 600;
+}
+.btn-mail{
+     background: #17c2a4;
+    color: #fff;
+    font-size: 14px;
+    padding: 16px 0;
+    text-transform: uppercase;
+    font-weight: 600;
+    display: block;
+    text-align: center;
+    width: 230px;
+    margin: 0 auto;
+    box-shadow: inset 0px -3px 0 rgb(20 165 140 / 70%); 
+}
+.btn-mail:hover{
+  color: #fff;
+}
+
+/*===========================
+   testomonial section start
+ ============================*/
+.testomonial-section{
+   padding: 110px 0 20px;
+   background: #d74680;
+}
+.testomonial-section h2{
+    font-size: 36px;
+    text-align: center;
+    letter-spacing: 2px;
+    font-weight: 700;
+    color: #fff;
+}
+.testomonial-section .lay-border5{
+    width: 90px;
+    height: 3px;
+    background: #b73c6d;
+    margin: 15px auto;
+}
+.testomonial-section p{
+   text-align: center;
+    color: #fff;
+    font-weight: 300;
+    padding: 0 150px;
+    margin-bottom: 60px;
+}
+.testomonial-details{
+  margin-bottom: 120px;
+}
+.testomonial-details img{
+   width: 100px;
+    border-radius: 80px;
+    float: left;
+    margin-right: 49px; 
+}
+.detailbar{
+   overflow: hidden;
+}
+.detailbar p{
+    font-size: 18px;
+    margin-bottom: 15px;
+    padding: 0 85px 0px 0;
+    font-weight: 200;
+    text-align: left;
+}
+.detailbar h4{
+   text-transform: uppercase;
+    color: #fff;
+    font-size: 20px;  
+    margin-bottom: 4px;
+}
+.detailbar h5{
+    color: #fac996;
+    font-size: 14px;
+    font-weight: 200;  
+}
+
+/*========================
+     Form section start
+ =========================*/
+.Form-section{
+  padding: 110px 0;
+  background: #3c5499 ;
+}
+.Form-section h2{
+    font-size: 36px;
+    text-align: center;
+    letter-spacing: 2px;
+    font-weight: 700;
+    color: #fff; 
+}
+.Form-section .lay-border6{
+    width: 90px;
+    height: 3px;
+    background: #273a71;
+    margin: 15px auto;
+}
+.Form-section p{
+    text-align: center;
+    color: #fff;
+    font-weight: 300;
+    padding: 0 150px;
+    margin-bottom: 60px; 
+}
+.input1{
+    width: 100%;
+    height: 45px;
+    color: #fff;
+    background: #273a71;
+    padding-left: 14px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+.input1::placeholder{
+  color: #fff;
+}
+.msg-box::placeholder{
+  color: #fff; 
+}
+.msg-box{
+     width: 100%;
+    resize: none;
+    height: 160px;
+    margin-top: 26px;
+    background: #273a71;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 0 0 13px;
+    color: #fff; 
+}
+.btn-main{
+    padding: 12px 0;
+    background: #30bae7;
+    text-align: center;
+    display: block;
+    margin: 55px auto 0;
+    width: 210px;
+    border-radius: 3px;
+    color: #fff;
+    box-shadow: inset 0px -5px 0 rgb(41 158 197 / 90%);
+    text-transform: uppercase;
+}
+.btn-main:hover{
+  color: #fff;
+}
+
+/*========================
+    Footer section start
+ =========================*/
+footer{
+  background: #344b8e;
+  padding: 35px 0; 
+}
+footer ul{ 
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+footer ul li{
+	 list-style: none;
+	 display: inline;
+	 margin: 0 22px;
+}
+footer ul li a{
+    color: #fff;
+    font-size: 18px;
+    transition: all 0.3s ease-in-out; 
+}
+footer ul li a:hover{
+	color: #30bae7;
+	transition: all 0.3s ease-in-out; 
+}
+
+
+.fa-arrow-up {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    line-height: 45px;
+    background: #DCBD33;
+    z-index: 99;
+    color: #fff;
+    border-radius: 12px;
+    font-size: 20px;
+    display: none;
+}
+
+
+/* Responsive for tablet version */
+
+@media (min-width: 577px) and (max-width: 768px){
+
+
+}
+
+
+/* Responsive for mobile version */
+
+@media (min-width: 320px) and (max-width: 576px){
+.header-section { padding: 5px 0 55px 0;}
+.navbar-nav { margin-top: 20px; text-align: center;}
+.navbar-nav .nav-item { margin: 0 75px;}
+.header-add { padding-top: 45px;}
+.header-add p {font-size: 24px; padding: 0 ; line-height: 32px;}
+.header-add .btn-hash { width: 160px; margin: 28px auto 0;}
+
+.service-section { padding: 60px 0;}
+.service-section h2 { font-size: 28px;}
+.service-section .lay-border {margin: 12px auto;}
+.service-section p { padding: 0;}
+.service-details { margin-top: 50px;}
+.service-details h3 { margin: 24px 0px 13px 0;}
+
+.team-section { padding: 55px 0;}
+.team-section .lay-border2 { width: 75px; margin: 12px auto;}
+.team-details { margin-top: 50px;}
+.team-details img { width: 175px; margin: 0 auto 30px;}
+.team-details h4 { margin-bottom: 16px;}
+.team-details p { margin-bottom: 16px;}
+
+.skill-section { padding: 60px 0 10px;}
+.skill-section .lay-border3 { margin: 12px auto;}
+.skill-section p { font-weight: 400; padding: 0 ; margin-bottom: 40px;}
+
+.portfolio-section { padding: 70px 0;}
+.portfolio-section h2 { font-size: 30px;}
+.portfolio-section .lay-border4 { margin: 12px auto;}
+.portfolio-section p { padding: 0;}
+.selection-bar ul li {  padding: 5px 17px;}
+.btn-mail { font-size: 12px; width: 190px;}
+
+.testomonial-section { padding: 60px 0 0px;}
+.testomonial-section h2 { font-size: 30px;}
+.testomonial-section .lay-border5 { width: 65px; margin: 12px auto;}
+.testomonial-section p { padding: 0; margin-bottom: 50px;}
+.testomonial-details { margin-bottom: 60px;}
+.testomonial-details img { width: 130px; border-radius: 80px; float: inherit; margin: 0 auto 16px; display: block;}
+.detailbar p { padding: 0; text-align: center; margin-bottom: 13px;}
+.detailbar h4 { text-align: center;}
+.detailbar h5 { text-align: center;}
+
+.Form-section { padding: 60px 0;}
+.Form-section h2 {font-size: 30px;}
+.Form-section .lay-border6 { width: 60px;}
+.Form-section p { padding: 0; margin-bottom: 36px;}
+.input1 { margin: 0 0 16px 0;}
+.msg-box { margin-top: 0px;}
+.btn-main { margin: 25px auto 0; width: 170px; font-size: 14px;}
+
+footer {padding: 25px 0;}
+footer ul li { margin: 0px 4px;}
+footer ul li a { font-size: 14px;}
+
+
+
+
+
+
+
+
+
+
+
+}
